@@ -1,0 +1,23 @@
+
+
+
+ls : 디렉토리 내용 보기(dir)
+ls -al : 디렉토리 상세하게 보기
+-10글자
+파일 생긴 꼴
+x xxx xxx xxx 계정명 계정명
+d rwx r-x r-x 계정명 계정명 -> root root: 최고관리자만 접근 가능
+d:
+pwd : 현 위치
+cd/ : 최상위 디렉토리로
+cd~ : 우리가 사용할 디렉토리 공간
+
+sudo apt-get update
+sudo apt-get install -y build-essetial
+sudo apt-get instlal curl
+curl -sL http://deb.nodesource.com/setup_14.x | sudo -E bash --
+sudo apt-get install -y node.js
+
+//sudo apt-get install -y mysql-server
+sudo apt-get install mariadb-server 
+sudo apt-get install mariadb-client
